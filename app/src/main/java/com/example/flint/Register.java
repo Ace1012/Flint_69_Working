@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Register extends AppCompatActivity {
-    private Button cRegister;
+    private Button cRegister,cBack;
     private EditText cEmail, cPassword,mName;
     private RadioGroup radioGroup;
 
@@ -53,12 +53,20 @@ public class Register extends AppCompatActivity {
             }
         };
         cRegister = (Button) findViewById(R.id.Register);
+        cBack = (Button) findViewById(R.id.back);
         mName = (EditText) findViewById(R.id.name);
         cEmail = (EditText) findViewById(R.id.email);
         cPassword = (EditText) findViewById(R.id.password);
 
 
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+
+        cBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openLogin();
+            }
+        });
 
         cRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +102,13 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
+    }
+
+    protected void openLogin(){
+        Intent intent = new Intent(Register.this,Login_Registration.class);
+        startActivity(intent);
+        finish();
+        return;
     }
 
     @Override
