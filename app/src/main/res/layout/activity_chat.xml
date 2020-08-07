@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.flint.Chats.ChatActivity">
+    tools:context="com.example.flint.Chats.ChatActivity"
+    android:background= "@color/colorDark">
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,12 +22,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/colorDark">
         <EditText
             android:layout_weight="0.8"
             android:layout_width="0dp"
             android:id="@+id/message"
-            android:hint="message..."
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:hint="Type a message..."
             android:layout_height="wrap_content"/>
 
         <Button
@@ -34,6 +38,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Send"
+            android:background="@drawable/login_button"
             android:id="@+id/send"/>
     </LinearLayout>
 
