@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605447835464",
+    "firebase_url": "https://flint-dba5a.firebaseio.com",
+    "project_id": "flint-dba5a",
+    "storage_bucket": "flint-dba5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605447835464:android:93a3ea656ec6ed77d12d7d",
+        "android_client_info": {
+          "package_name": "com.example.flint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605447835464-nt98vcm3f7m3ahivj5b5nfm77n84fe9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flint",
+            "certificate_hash": "932c32ce833b86ef4ad195d346be75f40a1df5e9"
+          }
+        },
+        {
+          "client_id": "605447835464-58te8k6rsm23s2qq7l52fanq2gvifda2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcEDb8GC-auYUWcT3mD9y_VFEfuUDHhz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605447835464-58te8k6rsm23s2qq7l52fanq2gvifda2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
